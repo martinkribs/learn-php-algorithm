@@ -1,5 +1,6 @@
 <?php
 
+namespace learn\src;
 
  // Definition for a singly-linked list.
   class ListNode {

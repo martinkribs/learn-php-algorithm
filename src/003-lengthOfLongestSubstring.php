@@ -1,8 +1,8 @@
 <?php
 
-use Solution as GlobalSolution;
+namespace learn\src;
 
-$hello = new GlobalSolution;
+$hello = new Solution;
 $solution = $hello->lengthOfLongestSubstring("");
 print_r($solution);
 

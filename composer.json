@@ -1,0 +1,17 @@
+{
+    "name": "martinkribs/learn",
+    "autoload": {
+        "psr-4": {
+            "learn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Kribs",
+            "email": "54333035+martinkribs@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

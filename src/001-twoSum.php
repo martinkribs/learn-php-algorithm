@@ -1,8 +1,8 @@
 <?php
 
-use Solution as GlobalSolution;
+namespace learn\src;
 
-$hello = new GlobalSolution;
+$hello = new Solution;
 $solution = $hello->twoSum(array(1,12,8,16,12),24);
 print_r($solution);
 
