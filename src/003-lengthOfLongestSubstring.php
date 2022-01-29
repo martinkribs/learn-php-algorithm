@@ -13,7 +13,7 @@ $tests=[
     "abba" => 2
 ];
 
-$hello = new Solution;
+$hello = new lengthOfLongestSubstring;
 foreach ($tests as $test => $value) {
     $solution = $hello->lengthOfLongestSubstring($test);
     if ($solution==$value){
@@ -24,7 +24,7 @@ foreach ($tests as $test => $value) {
     Print("\n");
 }
 
-class Solution {
+class lengthOfLongestSubstring {
 
     /**
      * @param String $s

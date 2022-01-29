@@ -12,7 +12,7 @@ namespace learn\src;
       }
   }
  
-class Solution {
+class addTwoNumbers {
 
     /**
      * @param ListNode $l1
