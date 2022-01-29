@@ -2,6 +2,8 @@
 
 namespace learn\tests;
 
+require __DIR__ . "/../src/001-twoSum.php";
+
 use PHPUnit\Framework\TestCase;
 use learn\src\twoSum;
 
