@@ -9,7 +9,8 @@ class twoSum {
     * @param Int $target
     * @return Int[]
     */
-    public function twoSum($nums, $target) {
+    public function twoSum(array $nums, int $target): array
+    {
         $indexMap=array();
         for($i = 0; $i < count($nums); $i++){
             $requiredNum = $target - $nums[$i];
@@ -24,4 +25,3 @@ class twoSum {
         }
     }
 }
-?>

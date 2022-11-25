@@ -34,8 +34,8 @@ class longestPalindrome {
      * @param String $s
      * @return String
      */
-    function longestPalindrome($s) {
-        
+    function longestPalindrome(string $s): string
+    {
+        return "";
     }
 }
-?>

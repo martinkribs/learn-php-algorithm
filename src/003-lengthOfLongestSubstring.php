@@ -30,7 +30,8 @@ class lengthOfLongestSubstring {
      * @param String $s
      * @return Integer
      */
-    function lengthOfLongestSubstring($s) {
+    function lengthOfLongestSubstring($s): int
+    {
 
         // Length of the given input string
         $n = strlen($s);
@@ -77,4 +78,3 @@ class lengthOfLongestSubstring {
         return $result;
     }
 }
-?>

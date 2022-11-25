@@ -3,15 +3,7 @@
 namespace learn\src;
 
 // Definition for a singly-linked list.
-class ListNode {
-    public $val = 0;
-    public $next = null;
-    function __construct($val = 0, $next = null) {
-        $this->val = $val;
-        $this->next = $next;
-    }
-}
- 
+
 class addTwoNumbers {
 
     /**
@@ -19,7 +11,8 @@ class addTwoNumbers {
      * @param ListNode $l2
      * @return ListNode
      */
-    function addTwoNumbers($l1, $l2) {
+    function addTwoNumbers(ListNode $l1, ListNode $l2): ?ListNode
+    {
         (int) $sum=0;
         $l3=NULL;
         $node=&$l3;

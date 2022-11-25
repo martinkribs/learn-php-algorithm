@@ -15,7 +15,7 @@ class findMedianSortedArrays {
      * @param array $nums2
      * @return Float
      */
-    function findMedianSortedArrays($nums1, $nums2) {
+    function findMedianSortedArrays(array $nums1, array $nums2) {
         $merged = array_merge($nums1, $nums2);
         array_multisort($merged);
         $middle = (count($merged) / 2);
